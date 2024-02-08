@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style> 
+    :root{
+        --theme-color:rgb(178, 178, 207);
+    }
+    body{
+        margin:0 ;
+    }
+    header{
+        background-image: url("https://t4.ftcdn.net/jpg/02/55/17/43/360_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg");
+        color: white;
+        height:70vh ;
+        background-size:cover ;
+        text-align:center ;
+        padding-top:300px ;
+        box-sizing:border-box ;
+    }
+    .hero-title{
+        margin: 0;
+        font-family:roboto ;
+    }
+    .hero-btn{
+        padding:  10px 20px;
+        background-color: white;
+        border-radius:5px ;
+    }
+    .feature-card:hover{
+        background-color: var(--theme-color);
+        color: white;
+    }
+.feature-card{
+   /* border: 2px solid red ;*/
+    text-align:center ;
+    padding: 50px; 
+    transition-duration: 0.5s;
+}
+.section-features{
+    display: flex;
+    padding: 50px 300px;
+    color: var(--theme-color);
+    
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+}
+.section-title{
+    text-align: center;
+    font: size 3rem;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1 class="hero-title" style="text-align: center; font-size: 4rem;"> welcome to my site</h1>
+    <h3 class="hero-subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, fuga obcaecati? Molestiae, laudantium. Rem quo aspernatur enim culpa. Nulla, debitis nobis mollitia delectus atque id officiis molestias perferendis corporis sapiente.</h3>
+
+    <button class="hero-btn">learn more</button>
+    </header>
+    <main>
+        <section class="section-features">
+            <h2 >our features </h2>
+            <div class ="card-container">
+            <div class="feature-card">
+                <i class="fa-5x fa-solid fa-rocket"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem magnam, eum facere suscipit doloremque aspernatur atque illo ab ullam similique molestias ipsam sit, perferendis amet eaque aut blanditiis rem!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-5x fa-solid fa-rocket"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem magnam, eum facere suscipit doloremque aspernatur atque illo ab ullam similique molestias ipsam sit, perferendis amet eaque aut blanditiis rem!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-5x fa-solid fa-rocket"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem magnam, eum facere suscipit doloremque aspernatur atque illo ab ullam similique molestias ipsam sit, perferendis amet eaque aut blanditiis rem!</p>
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
